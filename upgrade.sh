@@ -14,8 +14,10 @@ echo "Versione corrente $VERSIONEBBQ"
 echo
 echo
 
-rm -rf repo/zips
+rm -rf ../repo/zips
 
 python _repo_generator.py
 
 git add . ; git commit -m "comment" ; git push -u origin master
+
+rm -rf ../repo/zips
