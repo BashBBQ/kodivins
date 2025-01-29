@@ -15,6 +15,7 @@ echo
 echo
 
 rm -rf ../repo/zips
+cp -f *.zip repo/kodivins/
 
 python _repo_generator.py
 
