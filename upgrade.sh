@@ -13,6 +13,13 @@ echo
 echo "Versione corrente $VERSIONEBBQ"
 echo
 echo
+echo '<!DOCTYPE html>' > index.html
+unalias ls
+for i in $(ls -1 *.zip); do 
+	echo $i; 
+	echo "$i >> index.html";
+	done
+
 
 rm -rf ../repo/zips
 cp -f *.zip repo/kodivins/
