@@ -17,7 +17,7 @@ echo '<!DOCTYPE html>' > index.html
 unalias ls
 for i in $(ls -1 *.zip); do 
 	echo $i; 
-	echo "$i >> index.html";
+	echo "<a href=\"$i\"\>$i\<\/a\>" >> index.html;
 	done
 
 
