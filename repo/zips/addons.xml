@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="kodivins" name="kodivins.github.io" version="58" provider-name="BashBBQ">
+<addons><addon id="kodivins" name="kodivins.github.io" version="59" provider-name="BashBBQ">
     <extension point="xbmc.addon.repository" name="Example Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/BashBBQ/kodivins.github.io/master/repo/zips/addons.xml</info>
